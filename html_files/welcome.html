@@ -1,0 +1,30 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Doctor | DigiDoc</title>
+  <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vocuzi/digidoc/css/bootstrap.css">
+</head>
+<body>
+ <header class="user-header">
+        <div>
+          <div class="doctor-info">DigiDoc</div>
+          <a class="doctor-logout" href="/logout/">Logout</a>
+        </div>
+      </header>
+      <div style="text-align:right;padding-top: 10px;padding-right: 10px;">
+      <span><b>Date: October 20, 2019</b></span>
+      </div>
+      <h1 style="text-align: center; font-weight: 200;font-size: 50px;">Welcome, {{doctor.name}}</h1>
+      <div style="text-align: center;">
+      <div class="card" style="text-align: center;"><span><b>Speciality  </b>: {{doctor.speciality}}</span></div>
+        </div>
+        <div style="text-align: center;">
+            <img src="https://cdn.jsdelivr.net/gh/vocuzi/digidoc/qr-scanner-1774646-1509110.png">
+          </div>
+          <div style="text-align: center;padding-top: 10px;">
+          <button style="">Please click here to Scan</button>
+           </div>
+  </body>
+</html>
